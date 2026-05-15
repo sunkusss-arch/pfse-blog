@@ -1,17 +1,54 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 
+const posts = await getCollection('blog');
+const sortedPosts = [...posts].sort((a, b) =>
+  b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+).slice(0, 6);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout 
+  title="재무 전문가 없이도, 전문가처럼" 
+  description="PFSE는 누구나 이용할 수 있는 한국형 종합 자산 포트폴리오 플랫폼입니다."
+>
+  <section class="py-16 text-center">
+    <h1 class="text-5xl font-bold mb-4">PFSE</h1>
+    <p class="text-xl text-gray-600 mb-2">재무 전문가 없이도, 전문가처럼</p>
+    <p class="text-sm text-gray-500 mb-8">
+      자산 분석 · 포트폴리오 최적화 · 미래 시뮬레이션 · 현금흐름 진단
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a href="https://heroic-emotion-production-8c12.up.railway.app" 
+         target="_blank"
+         rel="noopener noreferrer"
+         class="bg-[#E84040] text-white px-6 py-3 rounded-md hover:bg-[#c93636]">
+        도구 시작하기
+      </a>
+      <a href="/blog" 
+         class="border border-gray-300 px-6 py-3 rounded hover:bg-gray-50">
+        블로그 보기
+      </a>
+    </div>
+  </section>
+
+  <section class="py-12">
+    <h2 class="text-2xl font-bold mb-6">최근 글</h2>
+    {sortedPosts.length === 0 ? (
+      <p class="text-gray-500">아직 작성된 글이 없습니다.</p>
+    ) : (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {sortedPosts.map((post) => (
+          <a href={`/blog/${post.id}`} class="block border border-gray-200 rounded p-6 hover:shadow-lg transition">
+            <div class="text-xs text-[#E84040] mb-2">{post.data.category}</div>
+            <h3 class="text-lg font-bold mb-2">{post.data.title}</h3>
+            <p class="text-sm text-gray-600 mb-3">{post.data.description}</p>
+            <div class="text-xs text-gray-400">
+              {post.data.pubDate.toLocaleDateString('ko-KR')}
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+</BaseLayout>

@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const toolUrl = 'https://heroic-emotion-production-8c12.up.railway.app';
+
+const features = [
+  '자산 포트폴리오 분석',
+  '효율적 프론티어',
+  'Monte Carlo',
+  'VaR / CVaR',
+  '백테스트',
+  '현금흐름',
+  'DSR',
+  'Goal-Based',
+  '시나리오 진단',
+] as const;
+
+const assetClasses = [
+  '국내주식',
+  '해외주식',
+  '부동산',
+  '예적금',
+  '국내채권',
+  '해외채권',
+  '금',
+  '리츠',
+  '원자재',
+] as const;
+---
+
+<BaseLayout
+  title="소개"
+  description="PFSE는 누구나 이용할 수 있는 한국형 종합 자산 포트폴리오 플랫폼입니다."
+>
+  <article class="space-y-16">
+    <header>
+      <h1 class="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">PFSE 소개</h1>
+      <p class="mt-4 text-xl font-medium text-[#E84040]">
+        재무 전문가 없이도, 전문가처럼
+      </p>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        PFSE(Personal Finance Simulation Engine)는 개인이 보유한 자산과 부채를 한곳에서 정리하고,
+        다양한 분석 도구로 미래 현금흐름과 리스크를 가늠해 볼 수 있도록 만든 웹 기반 도구입니다.
+        이 블로그는 PFSE와 연계된 개념 설명과 사용 팁을 정보 제공 목적으로 다룹니다.
+      </p>
+    </header>
+
+    <section aria-labelledby="features-heading">
+      <h2 id="features-heading" class="text-2xl font-bold text-gray-900">
+        핵심 기능
+      </h2>
+      <p class="mt-2 text-sm text-gray-600">
+        도구에서 제공하는 주요 분석 영역입니다. 세부 화면은 서비스 업데이트에 따라 달라질 수 있습니다.
+      </p>
+      <ul class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
+        {features.map((name) => (
+          <li class="rounded-lg border border-gray-200 px-4 py-3 text-sm font-medium text-gray-800">
+            {name}
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="assets-heading">
+      <h2 id="assets-heading" class="text-2xl font-bold text-gray-900">
+        지원 자산군
+      </h2>
+      <p class="mt-2 text-sm text-gray-600">
+        포트폴리오에 포함할 수 있는 자산 유형 예시입니다.
+      </p>
+      <ul class="mt-6 flex flex-wrap gap-2">
+        {assetClasses.map((name) => (
+          <li>
+            <span class="inline-block rounded-full border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm text-gray-800">
+              {name}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="operator-heading">
+      <h2 id="operator-heading" class="text-2xl font-bold text-gray-900">
+        운영자 소개
+      </h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        PFSE와 이 블로그는 1인이 기획·개발·운영하고 있습니다. 회계 및 재무 이해를 넓히기 위해
+        CPA 수험 과정을 이수한 경험이 있으며, 데이터 분석과 소프트웨어 구현을 바탕으로
+        복잡한 재무 개념을 도구와 글로 풀어 내는 데 집중하고 있습니다.
+      </p>
+      <p class="mt-4 text-sm text-gray-600">
+        본 사이트의 콘텐츠는 정보 제공 목적이며 투자 권유나 자문이 아닙니다. 법적·세무적 판단은
+        반드시 해당 분야 전문가와 상의하시기 바랍니다.
+      </p>
+    </section>
+
+    <section
+      class="rounded-lg border border-[#E84040]/20 bg-[#E84040]/5 px-6 py-8"
+      aria-labelledby="about-cta-heading"
+    >
+      <h2 id="about-cta-heading" class="text-lg font-semibold text-gray-900">
+        PFSE 도구 시작하기
+      </h2>
+      <p class="mt-2 text-sm text-gray-600">
+        분석 기능은 별도 호스팅되는 PFSE 웹 애플리케이션에서 이용할 수 있습니다.
+      </p>
+      <a
+        href={toolUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-4 inline-flex rounded-md bg-[#E84040] px-4 py-2.5 text-sm font-medium text-white transition hover:bg-[#c93636]"
+      >
+        PFSE 도구로 이동
+      </a>
+    </section>
+  </article>
+</BaseLayout>

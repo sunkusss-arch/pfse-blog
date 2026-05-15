@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+
+export interface Props {
+  title: string;
+  description: string;
+  ogType?: 'website' | 'article';
+}
+
+const { title, description, ogType = 'website' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} | PFSE</title>
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content={ogType} />
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body class="bg-white text-gray-900">
+  <header class="border-b border-gray-200">
+    <nav class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold">PFSE</a>
+      <div class="flex gap-6 text-sm">
+        <a href="/blog" class="hover:text-[#E84040]">블로그</a>
+        <a href="https://heroic-emotion-production-8c12.up.railway.app" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="hover:text-[#E84040]">도구</a>
+        <a href="/about" class="hover:text-[#E84040]">소개</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <slot />
+  </main>
+  
+  <footer class="border-t border-gray-200 mt-16">
+    <div class="max-w-4xl mx-auto px-4 py-6 text-sm text-gray-500">
+      <p>본 사이트의 콘텐츠는 정보 제공 목적이며 투자 권유나 자문이 아닙니다.</p>
+      <div class="mt-2 flex gap-4">
+        <a href="/privacy" class="hover:text-gray-700">개인정보처리방침</a>
+        <a href="/terms" class="hover:text-gray-700">이용약관</a>
+        <a href="/about" class="hover:text-gray-700">소개</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
