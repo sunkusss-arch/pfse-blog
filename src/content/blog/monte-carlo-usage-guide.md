@@ -2,7 +2,7 @@
 title: "Monte Carlo 시뮬레이션 활용하기"
 description: "PFSE 도구의 Monte Carlo 결과(목표 달성 확률, 자산 경로 시나리오, 실질 자산 경로, 목표 달성 역산)를 활용하는 방법을 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-07
 heroImage: "/images/blog/monte-carlo-usage-cover.png"
 tags: ["PFSE", "MonteCarlo", "시뮬레이션", "은퇴자금", "GoalBased"]
 ---

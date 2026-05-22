@@ -2,7 +2,7 @@
 title: "포트폴리오 최적화(MVO) 사용법"
 description: "PFSE 도구의 포트폴리오 최적화 결과(효율적 프론티어, 최대 샤프비율 조합, 최소 분산 조합)를 활용하는 방법과 Michaud 리샘플링의 의미를 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-10
 heroImage: "/images/blog/mvo-usage-cover.png"
 tags: ["PFSE", "MVO", "포트폴리오최적화", "효율적프론티어", "사용가이드"]
 ---

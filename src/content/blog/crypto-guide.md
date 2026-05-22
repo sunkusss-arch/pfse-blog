@@ -2,7 +2,7 @@
 title: "가상자산 투자 기초 가이드"
 description: "비트코인, 이더리움 등 가상자산의 투자 방식, 세금 체계, 변동성, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-03-22
 heroImage: "/images/blog/crypto-cover.png"
 tags: ["가상자산", "비트코인", "이더리움", "암호화폐", "변동성"]
 ---

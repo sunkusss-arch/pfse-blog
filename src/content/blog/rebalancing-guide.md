@@ -2,7 +2,7 @@
 title: "리밸런싱이란"
 description: "포트폴리오 비중을 목표대로 되돌리는 리밸런싱의 원리, 주요 방식, 빈도 결정, 비용과 세금까지 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-03-30
 heroImage: "/images/blog/rebalancing-cover.png"
 tags: ["리밸런싱", "포트폴리오", "비중조정", "정기점검", "장기투자"]
 ---

@@ -2,7 +2,7 @@
 title: "해외주식 투자 기초 가이드"
 description: "미국 주식을 중심으로 한 해외주식 투자 방식, 환율 영향, 세금 체계, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-02-18
 heroImage: "/images/blog/foreign-stocks-cover.png"
 tags: ["해외주식", "미국주식", "S&P500", "환율", "양도소득세"]
 ---

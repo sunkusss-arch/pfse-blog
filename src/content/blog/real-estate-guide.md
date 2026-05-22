@@ -2,7 +2,7 @@
 title: "부동산 투자 기초 가이드"
 description: "한국 가계자산의 핵심인 부동산 투자 방식, 세금, 대출, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-03-02
 heroImage: "/images/blog/real-estate-cover.png"
 tags: ["부동산", "주택", "리츠", "DSR", "양도세"]
 ---

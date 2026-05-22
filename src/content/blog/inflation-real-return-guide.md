@@ -2,7 +2,7 @@
 title: "인플레이션과 실질수익률"
 description: "물가상승이 자산 가치를 갉아먹는 원리와 실질수익률 계산법, 자산별 인플레이션 대응력을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-10
 heroImage: "/images/blog/inflation-real-return-cover.png"
 tags: ["인플레이션", "실질수익률", "물가상승률", "구매력", "인플레이션헤지"]
 ---

@@ -2,7 +2,7 @@
 title: "금 투자 기초 가이드"
 description: "금 투자의 방식, 세금 체계, 인플레이션 헤지 기능, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-03-10
 heroImage: "/images/blog/gold-cover.png"
 tags: ["금", "골드바", "KRX금시장", "인플레이션", "안전자산"]
 ---

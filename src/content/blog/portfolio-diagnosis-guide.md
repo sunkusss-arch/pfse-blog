@@ -2,7 +2,7 @@
 title: "자산 포트폴리오 진단하기"
 description: "PFSE 도구로 현재 자산 포트폴리오를 입력하고 비중, 리스크 노출도, 보유 종목 상세를 분석하는 절차와 결과 해석법을 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-01
 heroImage: "/images/blog/portfolio-diagnosis-cover.png"
 tags: ["PFSE", "포트폴리오진단", "자산입력", "사용가이드", "리스크노출도"]
 ---

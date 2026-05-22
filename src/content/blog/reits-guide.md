@@ -2,7 +2,7 @@
 title: "리츠 투자 기초 가이드"
 description: "부동산을 주식처럼 거래하는 리츠의 구조, 배당, 세금, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-03-14
 heroImage: "/images/blog/reits-cover.png"
 tags: ["리츠", "REITs", "부동산", "배당", "자산배분"]
 ---

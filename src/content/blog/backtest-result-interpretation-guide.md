@@ -2,7 +2,7 @@
 title: "백테스트 결과 해석하기"
 description: "PFSE 도구의 백테스트 결과(누적 수익률, 연도별 수익률, CAGR, MDD, 샤프비율, 실질 수익률, 롤링 수익률)를 정확히 읽는 방법을 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-04
 heroImage: "/images/blog/backtest-result-interpretation-cover.png"
 tags: ["PFSE", "백테스트", "결과해석", "CAGR", "MDD", "사용가이드"]
 ---

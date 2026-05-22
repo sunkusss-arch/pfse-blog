@@ -2,7 +2,7 @@
 title: "효율적 프론티어란"
 description: "위험 대비 최적 수익을 찾는 효율적 프론티어의 개념, 계산 원리, 한계, 실제 포트폴리오 활용법을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-03
 heroImage: "/images/blog/efficient-frontier-cover.png"
 tags: ["효율적프론티어", "MVO", "자산배분", "마코위츠", "포트폴리오이론"]
 ---

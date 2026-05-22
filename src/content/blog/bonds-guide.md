@@ -2,7 +2,7 @@
 title: "채권 투자 기초 가이드"
 description: "국채와 회사채를 중심으로 한 채권 투자 방식, 금리·신용·만기 위험, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-02-22
 heroImage: "/images/blog/bonds-cover.png"
 tags: ["채권", "국채", "회사채", "금리", "자산배분"]
 ---

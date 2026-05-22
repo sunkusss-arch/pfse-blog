@@ -2,7 +2,7 @@
 title: "자산 배분이란"
 description: "자산 배분의 원리, 주요 모델, 결정 기준, 흔한 실수를 정리한다. 종목 선택보다 자산 배분이 수익률에 더 큰 영향을 미치는 이유를 다룬다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-03-26
 heroImage: "/images/blog/asset-allocation-cover.png"
 tags: ["자산배분", "포트폴리오", "분산투자", "리스크관리", "장기투자"]
 ---

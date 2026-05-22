@@ -2,7 +2,7 @@
 title: "ETF 종합 가이드"
 description: "ETF의 구조, 종류별 분류, 한국과 미국 시장 비교, 고르는 법과 흔한 실수를 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-03-06
 heroImage: "/images/blog/etf-cover.png"
 tags: ["ETF", "상장지수펀드", "패시브투자", "분산투자"]
 ---

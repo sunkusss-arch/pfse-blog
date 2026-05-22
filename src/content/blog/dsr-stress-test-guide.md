@@ -2,7 +2,7 @@
 title: "DSR 스트레스 테스트 사용법"
 description: "PFSE 도구의 현금흐름 진단과 DSR 스트레스 테스트 결과를 활용해 금리 변동 시 부채 상환 위험을 점검하는 방법을 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-16
 heroImage: "/images/blog/dsr-stress-test-cover.png"
 tags: ["PFSE", "DSR", "스트레스테스트", "부채관리", "사용가이드"]
 ---

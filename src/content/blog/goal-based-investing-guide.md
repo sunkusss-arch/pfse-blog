@@ -2,7 +2,7 @@
 title: "Goal-Based Investing 활용하기"
 description: "PFSE 도구의 목표 달성 역산 기능을 활용해 목표 자금에 도달하기 위한 필요 월 납입액을 확률 기반으로 계산하는 방법을 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-21
 heroImage: "/images/blog/goal-based-investing-cover.png"
 tags: ["PFSE", "GoalBased", "목표투자", "은퇴자금", "사용가이드"]
 ---

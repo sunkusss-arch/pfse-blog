@@ -2,7 +2,7 @@
 title: "MDD란"
 description: "고점 대비 최대 낙폭을 측정하는 MDD의 정의, 의미, 자산별 수치, 활용법과 한계를 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-14
 heroImage: "/images/blog/mdd-cover.png"
 tags: ["MDD", "최대낙폭", "리스크관리", "드로다운", "회복기간"]
 ---

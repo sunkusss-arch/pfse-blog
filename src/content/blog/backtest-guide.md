@@ -2,7 +2,7 @@
 title: "백테스트란"
 description: "과거 데이터로 투자 전략을 검증하는 백테스트의 원리, 주요 함정, 신뢰성 있는 설계 방법을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-24
 heroImage: "/images/blog/backtest-cover.png"
 tags: ["백테스트", "전략검증", "과적합", "포워드테스트", "투자전략"]
 ---

@@ -2,7 +2,7 @@
 title: "DSR이란"
 description: "총부채원리금상환비율(DSR)의 정의, 계산 방식, 한국 규제 현황, 개인 재무 관리에서의 활용법을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-27
 heroImage: "/images/blog/dsr-cover.png"
 tags: ["DSR", "총부채원리금상환비율", "대출규제", "주택담보대출", "재무관리"]
 ---

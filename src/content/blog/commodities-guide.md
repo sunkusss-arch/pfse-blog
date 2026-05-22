@@ -2,7 +2,7 @@
 title: "원자재 투자 기초 가이드"
 description: "원유, 구리, 농산물 등 원자재의 투자 방식, 세금, 인플레이션 헤지 기능, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-03-18
 heroImage: "/images/blog/commodities-cover.png"
 tags: ["원자재", "원유", "구리", "농산물", "인플레이션"]
 ---

@@ -2,7 +2,7 @@
 title: "샤프비율이란"
 description: "위험 1단위당 초과수익을 측정하는 샤프비율의 정의, 계산 방식, 한계, 실무 활용법을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-06
 heroImage: "/images/blog/sharpe-ratio-cover.png"
 tags: ["샤프비율", "위험조정수익률", "성과지표", "소르티노", "정보비율"]
 ---

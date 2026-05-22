@@ -2,7 +2,7 @@
 title: "VaR와 CVaR란"
 description: "포트폴리오의 극단 손실을 추정하는 VaR와 CVaR의 개념, 계산 방식, 한계, 실무 활용법을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-17
 heroImage: "/images/blog/var-cvar-cover.png"
 tags: ["VaR", "CVaR", "리스크관리", "꼬리위험", "최대손실"]
 ---

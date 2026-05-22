@@ -2,7 +2,7 @@
 title: "예적금 투자 기초 가이드"
 description: "예금자보호 한도, 금리 구조, 세금 체계, 포트폴리오 내 역할까지. 예적금의 본질과 한계를 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-02-26
 heroImage: "/images/blog/savings-cover.png"
 tags: ["예금", "적금", "예금자보호", "금리", "안전자산"]
 ---

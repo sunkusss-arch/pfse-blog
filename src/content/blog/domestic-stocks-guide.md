@@ -2,7 +2,7 @@
 title: "국내주식 투자 기초 가이드"
 description: "한국 주식시장의 구조와 투자 방식, 세금 체계, 포트폴리오 내 역할을 정리한다."
 category: "자산군"
-pubDate: 2026-05-13
+pubDate: 2026-02-15
 heroImage: "/images/blog/domestic-stocks-cover.png"
 tags: ["국내주식", "코스피", "코스닥", "ETF", "세금"]
 ---

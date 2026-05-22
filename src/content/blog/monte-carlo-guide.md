@@ -2,7 +2,7 @@
 title: "Monte Carlo 시뮬레이션이란"
 description: "수천 번의 가상 미래를 그려 투자 결과를 추정하는 Monte Carlo 시뮬레이션의 원리, 한계, 실무 활용법을 정리한다."
 category: "재무개념"
-pubDate: 2026-05-13
+pubDate: 2026-04-21
 heroImage: "/images/blog/monte-carlo-cover.png"
 tags: ["MonteCarlo", "시뮬레이션", "확률분석", "은퇴자금", "리스크관리"]
 ---

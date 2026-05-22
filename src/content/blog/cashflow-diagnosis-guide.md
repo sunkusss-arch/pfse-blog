@@ -2,7 +2,7 @@
 title: "현금흐름 진단하기"
 description: "PFSE 도구의 현금흐름 진단을 활용해 월 생활 여력, 긴급자금 소진 시점, 시나리오 충격을 분석하는 방법을 정리한다."
 category: "사용가이드"
-pubDate: 2026-05-13
+pubDate: 2026-05-19
 heroImage: "/images/blog/cashflow-diagnosis-cover.png"
 tags: ["PFSE", "현금흐름", "생활여력", "긴급자금", "사용가이드"]
 ---
