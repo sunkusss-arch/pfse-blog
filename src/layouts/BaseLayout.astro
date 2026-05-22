@@ -5,27 +5,59 @@ export interface Props {
   title: string;
   description: string;
   ogType?: 'website' | 'article';
+  ogImage?: string;
+  pubDate?: Date;
+  tags?: string[];
 }
 
-const { title, description, ogType = 'website' } = Astro.props;
----
+const {
+  title,
+  description,
+  ogType = 'website',
+  ogImage = '/images/og-default.png',
+  pubDate,
+  tags,
+} = Astro.props;
 
-<!DOCTYPE html>
-<html lang="ko">
+const siteUrl = 'https://pfse.kr';
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const fullOgImage = ogImage.startsWith('http') ? ogImage : new URL(ogImage, siteUrl).toString();
+const fullTitle = `${title} | PFSE`;
+---
 
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
   <meta name="description" content={description} />
-  <title>{title} | PFSE</title>
-  
+  <link rel="canonical" href={canonicalUrl} />
+
   <!-- Open Graph -->
+  <meta property="og:type" content={ogType} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:type" content={ogType} />
-  
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content={fullOgImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="PFSE" />
+  <meta property="og:locale" content="ko_KR" />
+
+  {ogType === 'article' && pubDate && (
+    <meta property="article:published_time" content={pubDate.toISOString()} />
+  )}
+  {ogType === 'article' && tags && tags.map((tag) => (
+    <meta property="article:tag" content={tag} />
+  ))}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={fullOgImage} />
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 <body class="bg-white text-gray-900">
